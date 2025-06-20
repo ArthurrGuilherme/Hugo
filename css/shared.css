@@ -8,15 +8,15 @@
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 6px;
-    color: #333;
+    color: #333 !important;
     transition: all 0.3s ease;
     position: relative;
 }
 .nav-link:hover {
-    color: var(--Franq-color);
+    color: var(--Franq-color) !important;
 }
 .nav-link.active {
-    color: var(--Franq-color);
+    color: var(--Franq-color) !important;
 }
 .nav-link::after {
     content: "";
