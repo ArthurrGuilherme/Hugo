@@ -30,7 +30,7 @@
     font-size: .9rem; 
     padding: 0rem 1rem;
   }
-  .pmobile2 {
+  .pmobile {
     font-size: .9rem; 
   }
   #display100 {
@@ -52,8 +52,9 @@
   #text-center {
     text-align: center !important;
   }
-  .elementor-background-video-hosted {
-  width: 90%; 
-  height: 480px;
+  
+.elementor-background-video-hosted {
+  width: 100% !important; 
+  height: auto !important;
 }
 }
