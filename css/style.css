@@ -7,7 +7,6 @@
 .bancologo2 {
   width: 9%;
 }
-
 .btn-primary {
   background-color: #2e63f7;
   border: none;
@@ -16,5 +15,25 @@
 .btn-primary:hover {
   background-color: #234fc4;
 }
-
-
+.elementor-background-video-hosted {
+  width: 853.333px; 
+  height: 480px;
+}
+@media only screen and (max-width: 600px) {
+  #Mobile {
+    flex-direction: column;
+  }
+  #Mobile2 {
+    flex-direction: column-reverse;
+  }
+  #imgmobile {
+    width: 50% !important;
+  }
+  #text-center {
+    text-align: center !important;
+  }
+  .elementor-background-video-hosted {
+  width: 90%; 
+  height: 480px;
+}
+}
