@@ -24,7 +24,7 @@
 }
 @media only screen and (max-width: 600px) {
   #desktopimg {
-    display: none;
+    display: none !important;
   }
   .pmobile {
     font-size: .9rem; 
@@ -52,9 +52,8 @@
   #text-center {
     text-align: center !important;
   }
-  
-.elementor-background-video-hosted {
-  width: 100% !important; 
-  height: auto !important;
-}
+  .elementor-background-video-hosted {
+    width: 100% !important; 
+    height: auto !important;
+  }
 }
