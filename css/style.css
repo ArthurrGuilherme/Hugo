@@ -2,11 +2,36 @@
   background: linear-gradient(90deg, #0d6efd , #333 );
 }
 .bancologo {
-  width: 9%;
+  width: 12%;
 }
 .bancologo2 {
-  width: 6%;
+  width: 8%;
 }
+.carousel-item img {
+            max-height: 80px;
+            object-fit: contain;
+        }
+        /* Faz o carrossel mostrar 4 por vez */
+        @media (min-width: 768px) {
+            .carousel .carousel-inner .carousel-item-end.active,
+            .carousel .carousel-inner .carousel-item-next {
+                transform: translateX(25%);
+            }
+            .carousel .carousel-inner .carousel-item-start.active, 
+            .carousel .carousel-inner .carousel-item-prev {
+                transform: translateX(-25%);
+            }
+            .carousel .carousel-inner .carousel-item {
+                flex: 0 0 25%;
+                max-width: 25%;
+            }
+        }
+        .carousel-inner {
+            display: flex;
+        }
+        .carousel-item {
+            transition: transform 0.5s ease;
+        }
 .benefits .icon-box i {
   font-size: 2.5rem;
 }
