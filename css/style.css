@@ -19,7 +19,20 @@
   width: 853.333px; 
   height: 480px;
 }
+#Mobileimg {
+  display: none;
+}
 @media only screen and (max-width: 600px) {
+  #desktopimg {
+    display: none;
+  }
+  .pmobile {
+    font-size: .8rem; 
+    padding: 0rem 1rem;
+  }
+  #Mobileimg {
+  display: block;
+}
   #Mobile {
     flex-direction: column;
   }
