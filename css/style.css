@@ -27,8 +27,15 @@
     display: none;
   }
   .pmobile {
-    font-size: .8rem; 
+    font-size: .9rem; 
     padding: 0rem 1rem;
+  }
+  .pmobile2 {
+    font-size: .9rem; 
+  }
+  #display100 {
+    width: 100% !important;
+    text-align: center;
   }
   #Mobileimg {
   display: block;
