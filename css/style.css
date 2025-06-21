@@ -2,83 +2,11 @@
   background: linear-gradient(90deg, #0d6efd , #333 );
 }
 .bancologo {
-  width: 12%;
+  width: 14%;
 }
 .bancologo2 {
-  width: 8%;
+  width: 9%;
 }
-.carousel-item img {
-            max-height: 80px;
-            object-fit: contain;
-        }
-        /* Faz o carrossel mostrar 4 por vez */
-        @media (min-width: 768px) {
-            .carousel .carousel-inner .carousel-item-end.active,
-            .carousel .carousel-inner .carousel-item-next {
-                transform: translateX(25%);
-            }
-            .carousel .carousel-inner .carousel-item-start.active, 
-            .carousel .carousel-inner .carousel-item-prev {
-                transform: translateX(-25%);
-            }
-            .carousel .carousel-inner .carousel-item {
-                flex: 0 0 25%;
-                max-width: 25%;
-            }
-        }
-        .carousel-inner {
-            display: flex;
-        }
-        .carousel-item {
-            transition: transform 0.5s ease;
-        }
-.benefits .icon-box i {
-  font-size: 2.5rem;
-}
-
-.step-number {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  background-color: #0d6efd;
-  color: #fff;
-  border-radius: 50%;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-.cta-final {
-  background: linear-gradient(45deg, #ff7f50, #ffb347);
-}
-
-
-.calculadora-section {
-  background-color: #121212;
-}
-
-.calculadora-section label {
-  font-weight: 500;
-  margin-top: 10px;
-}
-
-.form-range::-webkit-slider-thumb {
-  background: #0d6efd;
-}
-
-.bg-dark {
-  background-color: #1e1e1e !important;
-}
-
-.bg-secondary {
-  background-color: #2c2c2c !important;
-}
-
-.text-primary {
-  color: #5d9eff !important;
-}
-
-
 
 .btn-primary {
   background-color: #2e63f7;
