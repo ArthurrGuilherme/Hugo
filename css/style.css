@@ -1,5 +1,5 @@
 .hero-section {
-  background: linear-gradient(90deg, #0d6efd , #333 );
+  background: linear-gradient(90deg, #fd8402 , #fd840261 );
 }
 .bancologo {
   width: 14%;
@@ -8,12 +8,12 @@
   width: 9%;
 }
 .btn-primary {
-  background-color: #2e63f7;
+  background-color: #fd8402;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #234fc4;
+  background-color: #fd8402;
 }
 .elementor-background-video-hosted {
   width: 853.333px; 
